@@ -18,8 +18,6 @@ namespace Algorithms.Algorithms
         {
             if (array == null) throw new ArgumentNullException("array");
 
-            if (array.Length < 1) return array;
-
             int key;
             int j;
             for (int i = 1; i < array.Length; i++)
