@@ -10,7 +10,8 @@ namespace Algorithms.Algorithms
         /// element of the array, and an unsorted part, consisting of the rest of the array.
         /// The next element from the unsorted part of the array is taken and inserted
         /// in the correct position in the sorted part of the array.
-        /// This is an efficient algorithm for sorting a small number of elements.
+        /// This is an efficient algorithm for sorting a small number of elements
+        /// or a partially sorted array.
         /// </summary>
         /// <param name="array">An array of integers.</param>
         /// <returns>The sorted array.</returns>
